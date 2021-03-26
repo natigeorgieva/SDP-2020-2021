@@ -41,6 +41,7 @@
             <b>Андон Денков</b><br>
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/profile.php?id=100015042855611"><img src="https://img.icons8.com/material-rounded/24/000000/facebook.png" style = "vertical-align: middle;"> Андон Денков</a><br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/fluent-systems-filled/24/000000/email.png" style = "vertical-align: middle;"> 
+            andondenkov@gmail.com
          </td>
         <td>
             <b>Стефан Иванов</b><br>
