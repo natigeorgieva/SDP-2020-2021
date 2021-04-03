@@ -10,14 +10,15 @@ void Vector::operator+(float num)
 
 //оператор +=
 void Vector::operator+=(const Vector& other)
-{
+{//събираме поелементно двата масива до по-малката дължина, след това по-краткият считаме, че има нули.
 	int longer, shorter;
 	if (size < other.size)
 	{
 		shorter = size;
 		longer = other.size;
-		while (max_size < longer)
+		while (max_size < longer)//уверяваме се, че има достатъчно място
 			resize();
+		//В единия цикъл събираме, в другия присвояваме, тъй като сме минали дължината, в която и двата имат елементи
 		for (int i = 0; i < shorter; i++)
 			ptr[i] += other.ptr[i];
 		for (int i = shorter; i < longer; i++)
