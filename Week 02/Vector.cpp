@@ -73,9 +73,9 @@ public:
 		return size;
 	}
 	
-	friend istream& operator>>(istream&, Vector&);
+	friend std::istream& operator>>(std::istream&, Vector&);
 	
-	friend ostream& operator<<(ostream&, const Vector&);
+	friend std::ostream& operator<<(std::ostream&, const Vector&);
 	//вижте файла Input&Output.cpp за дефинициите
 
 };
