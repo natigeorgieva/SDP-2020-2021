@@ -46,6 +46,19 @@ ostream& operator<<(ostream& out, const Film& obj)
 
 }
 
+Film operator+(double num, const Film& object)//Принципът на работа е абсолютно същият като на член фунцкията operator+
+{
+	Film temp;
+	temp.name =object. name;
+	temp.max_size = object.size + 1;
+	temp.rating = new double[temp.max_size];
+	for (int i = 0; i < object.max_size - 1; i++)
+		temp.rating[i] = object.rating[i];
+	temp.rating[object.max_size - 1] = num;
+	temp.size = object.max_size;
+	return temp;
+}
+
 int main()
 {
 	Film f;
