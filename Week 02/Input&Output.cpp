@@ -1,4 +1,4 @@
-#include<iostream>//Задължително се добавя при работа с вход и изход
+#include<iostream>//Задължително се добавя при работа с вход и изход, ако го няма в header файла
 #include "Vector.cpp" //По принцип добавяме header файла, но тъй като тук, в решените задачи, класа Vector e във файла Vector.cpp, добавяме него
 using namespace std; //Ако не използвате namespace std, трябва да пиешeте std::istream и std::ostream
 
