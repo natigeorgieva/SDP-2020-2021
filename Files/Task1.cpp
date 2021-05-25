@@ -1,3 +1,6 @@
+#include <iostream>
+#include<fstream>
+#include<string>
 //Във файла "new.txt" вече е записан текста "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 //Във функцията TextChange създаваме файла "example.txt", в който записваме вече променения текст.
 
@@ -25,8 +28,7 @@ file.close();
 
 int main()
 {
-
-	fstream file("new.txt");
+  fstream file("new.txt");
   file<<"Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
   TextChange(file, 'o', 'u');
 	
